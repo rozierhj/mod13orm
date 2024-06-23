@@ -21,11 +21,12 @@ Product.init(
       allowNull: false,
     },
     price: {
-      type: DataTypes.DECIMAL,
+      type: DataTypes.NUMERIC(10,2),
       allowNull: false,
-      validate:{
-        isDecimal:true,
-      },
+      get(){
+        const value = this.getDataValue('price');
+        return value === null ? null : parseFloat(value);
+      }
     },
     stock: {
       type: DataTypes.INTEGER,
