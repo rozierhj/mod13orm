@@ -40,6 +40,7 @@ Product.init(
       references: {
         model: 'category',
         key: 'id',
+        onDelete: 'CASCADE',
       },
     },
   },
@@ -49,6 +50,7 @@ Product.init(
     freezeTableName: true,
     underscored: true,
     modelName: 'product',
+    
   }
 );
 
