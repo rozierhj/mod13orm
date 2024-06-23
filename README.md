@@ -22,7 +22,7 @@
   #### [link to the git repository](https://github.com/rozierhj/mod13orm)
   #### [link to the website](#)
 
-  To begin the demonstration, the database ecommerce_db is created from the schema.sql file in the project. Next, a seeds file is used to populate the four tables with initial data. The tables are viewed using the pgAdmin 4 application. Nrxt, Insomnia id used to demonstrate the GET, POST, PUT and DELETE requests for the category, product and tag tables. Each GET is done for the entire table as well as one row of the table using the rows id. POST requests are utilized, each table having its own unique values to populate. Next, the PUT request is demonstrated much in the same way as the POST request. Finally, the DELETE request is demonstrated for all 3 tables.
+  To begin the demonstration, the database ecommerce_db is created from the schema.sql file in the project. Next, a seeds file is used to populate the four tables with initial data. The tables are viewed using the pgAdmin 4 application. Next, Insomnia is used to demonstrate the GET, POST, PUT and DELETE requests for the category, product and tag tables. Each GET is done for the entire table as well as one row of the table using the rows id. POST requests are utilized, each table having its own unique values to populate. Next, the PUT request is demonstrated much in the same way as the POST request. Finally, the DELETE request is demonstrated for all 3 tables.
 
   Webpage Design
     n/a
